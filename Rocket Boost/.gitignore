@@ -1,0 +1,19 @@
+
+# Visual Studio temp files
+.vs/
+*.vsidx
+*.vscode/
+
+# Unity generated files
+Library/
+Temp/
+Obj/
+Logs/
+Build/
+Builds/
+UserSettings/
+MemoryCaptures/
+
+# OS junk
+.DS_Store
+Thumbs.db
