@@ -27,7 +27,7 @@ public class CollisionHandler : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (!isControllable) { return; }
+        if (!isControllable || !isCollision) { return; }
 
         switch (other.gameObject.tag)
         {
@@ -93,7 +93,7 @@ public class CollisionHandler : MonoBehaviour
         {
             LoadNextLevel();
         }
-       else if(Keyboard.current.cKey.isPressed)
+       else if(Keyboard.current.cKey.wasPressedThisFrame)
        {
             isCollision = !isCollision;
        }
