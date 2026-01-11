@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4850583767532050774}
   - component: {fileID: 3227741498683884145}
   - component: {fileID: 4954726192135778659}
+  - component: {fileID: 6956637123618388684}
   m_Layer: 0
   m_Name: Player Rocket
   m_TagString: Untagged
@@ -341,6 +342,18 @@ MonoBehaviour:
   crashSFX: {fileID: 8300000, guid: e7fb177c9494caf48bfcf1364bde7151, type: 3}
   successParticles: {fileID: 4749742455986671324}
   crashParticles: {fileID: 7281345870425800956}
+--- !u!114 &6956637123618388684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359678047417725170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0357d8b594a1c4c89ed23909290294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6335578983465337874
 GameObject:
   m_ObjectHideFlags: 0
@@ -367,13 +380,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6335578983465337874}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7151498, y: -0, z: -0, w: 0.6989712}
-  m_LocalPosition: {x: -0.020000458, y: -0.23, z: 0.05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.33717534, y: 0.06318808, z: 0.03765325, w: -0.93856394}
+  m_LocalPosition: {x: 0.33, y: -1.02, z: -2.49}
+  m_LocalScale: {x: 3.2893, y: 3.2893, z: 3.2893}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1645645587225851214}
-  m_LocalEulerAnglesHint: {x: -91.311, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -140.381, y: 893.049, z: 177.912}
 --- !u!108 &1208102450891361689
 Light:
   m_ObjectHideFlags: 0
@@ -385,8 +398,8 @@ Light:
   serializedVersion: 11
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.55
-  m_Range: 11.170102
+  m_Intensity: 2.05
+  m_Range: 21.1
   m_SpotAngle: 57.122017
   m_InnerSpotAngle: 42.666794
   m_CookieSize: 10
